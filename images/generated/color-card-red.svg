@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bg-grad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#7a1f1f"/>
+      <stop offset="100%" stop-color="#3a0a0a"/>
+    </radialGradient>
+    <radialGradient id="iris-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c93030"/>
+      <stop offset="55%" stop-color="#8a1818"/>
+      <stop offset="100%" stop-color="#4a0a0a"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg-grad)"/>
+
+  <!-- Subtle decoration dots -->
+  <circle cx="60"  cy="80"  r="1.5" fill="rgba(255,200,200,0.08)"/>
+  <circle cx="340" cy="120" r="1"   fill="rgba(255,200,200,0.08)"/>
+  <circle cx="100" cy="320" r="1.5" fill="rgba(255,200,200,0.08)"/>
+  <circle cx="320" cy="290" r="1"   fill="rgba(255,200,200,0.08)"/>
+
+  <!-- Eye almond -->
+  <path d="M 100,200 Q 200,130 300,200 Q 200,270 100,200 Z"
+        fill="#f8f6f0" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Iris -->
+  <circle cx="200" cy="200" r="55" fill="url(#iris-grad)"/>
+  <!-- Limbal ring -->
+  <circle cx="200" cy="200" r="55" fill="none" stroke="#3a0808" stroke-width="2"/>
+  <!-- Iris pattern -->
+  <g opacity="0.3" stroke="#3a0808" stroke-width="0.8" fill="none">
+    <line x1="200" y1="155" x2="200" y2="175"/>
+    <line x1="245" y1="200" x2="225" y2="200"/>
+    <line x1="200" y1="245" x2="200" y2="225"/>
+    <line x1="155" y1="200" x2="175" y2="200"/>
+  </g>
+  <!-- Pupil -->
+  <circle cx="200" cy="200" r="14" fill="#1a0000"/>
+  <!-- Catchlights -->
+  <ellipse cx="184" cy="184" rx="14" ry="10" fill="rgba(255,255,255,0.85)"/>
+  <ellipse cx="216" cy="215" rx="5"  ry="3"  fill="rgba(255,255,255,0.4)"/>
+
+  <!-- Bottom text band -->
+  <rect x="0" y="320" width="400" height="80" fill="rgba(58,10,10,0.7)"/>
+
+  <text x="200" y="360" font-family="Helvetica, Arial, sans-serif"
+        font-size="26" font-weight="700" letter-spacing="3"
+        fill="#ffffff" text-anchor="middle">RED</text>
+  <text x="200" y="385" font-family="Helvetica, Arial, sans-serif"
+        font-size="11" font-weight="500" letter-spacing="4"
+        fill="rgba(255,200,200,0.8)" text-anchor="middle">CONTACT LENSES</text>
+</svg>

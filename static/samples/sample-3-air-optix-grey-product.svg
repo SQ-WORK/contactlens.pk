@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF9F4"/>
+      <stop offset="100%" stop-color="#F5F3EC"/>
+    </linearGradient>
+    <radialGradient id="grey-iris" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8b0b8"/>
+      <stop offset="50%" stop-color="#7a838c"/>
+      <stop offset="85%" stop-color="#4d5660"/>
+      <stop offset="100%" stop-color="#2c3138"/>
+    </radialGradient>
+    <linearGradient id="brand-stripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D9E75"/>
+      <stop offset="100%" stop-color="#0F6E56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="600" fill="url(#bg)"/>
+
+  <!-- Top brand stripe -->
+  <rect x="0" y="0" width="600" height="4" fill="url(#brand-stripe)"/>
+
+  <!-- Top label -->
+  <text x="300" y="50" font-family="Helvetica, Arial, sans-serif"
+        font-size="11" font-weight="600" letter-spacing="3"
+        fill="#5F5E5A" text-anchor="middle">SILICONE HYDROGEL · COLORED</text>
+
+  <!-- Eye illustration with grey lens -->
+  <g transform="translate(300, 250)">
+    <!-- Outer eye almond -->
+    <path d="M -160,0 Q 0,-95 160,0 Q 0,95 -160,0 Z"
+          fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+
+    <!-- Grey iris (Air Optix Grey simulation) -->
+    <circle cx="0" cy="0" r="78" fill="url(#grey-iris)"/>
+
+    <!-- Limbal ring -->
+    <circle cx="0" cy="0" r="78" fill="none" stroke="#1a1a1a" stroke-width="1.5" opacity="0.4"/>
+
+    <!-- Iris pattern detail (radial streaks) -->
+    <g opacity="0.25" stroke="#2c3138" stroke-width="0.8" fill="none">
+      <line x1="0" y1="-65" x2="0" y2="-30"/>
+      <line x1="65" y1="0" x2="30" y2="0"/>
+      <line x1="0" y1="65" x2="0" y2="30"/>
+      <line x1="-65" y1="0" x2="-30" y2="0"/>
+      <line x1="46" y1="-46" x2="21" y2="-21"/>
+      <line x1="46" y1="46" x2="21" y2="21"/>
+      <line x1="-46" y1="46" x2="-21" y2="21"/>
+      <line x1="-46" y1="-46" x2="-21" y2="-21"/>
+    </g>
+
+    <!-- Pupil -->
+    <circle cx="0" cy="0" r="22" fill="#1a1a1a"/>
+
+    <!-- Catchlight -->
+    <ellipse cx="-18" cy="-18" rx="16" ry="11" fill="rgba(255,255,255,0.9)"/>
+    <ellipse cx="14" cy="18" rx="6" ry="4" fill="rgba(255,255,255,0.5)"/>
+
+    <!-- Subtle eyelash hint -->
+    <path d="M -105,-32 Q -50,-55 0,-60 Q 50,-55 105,-32"
+          fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <!-- Color swatch indicator -->
+  <g transform="translate(300, 390)">
+    <circle cx="-30" cy="0" r="12" fill="url(#grey-iris)" stroke="#1a1a1a" stroke-width="1.5"/>
+    <text x="-5" y="5" font-family="Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="500" fill="#5F5E5A">SHADE: GREY</text>
+  </g>
+
+  <!-- Brand wordmark -->
+  <text x="300" y="455" font-family="Helvetica, Arial, sans-serif"
+        font-size="32" font-weight="700" letter-spacing="1"
+        fill="#1a1a1a" text-anchor="middle">AIR OPTIX</text>
+  <text x="300" y="483" font-family="Helvetica, Arial, sans-serif"
+        font-size="18" font-weight="400" letter-spacing="2"
+        fill="#5F5E5A" text-anchor="middle">COLORS</text>
+
+  <!-- Divider -->
+  <line x1="240" y1="510" x2="360" y2="510" stroke="#1D9E75" stroke-width="1.5"/>
+
+  <!-- WhatsApp callout -->
+  <text x="300" y="540" font-family="Helvetica, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#0F6E56" text-anchor="middle">WhatsApp +92 321 9455233 for stock</text>
+
+  <!-- Footer wordmark -->
+  <text x="300" y="575" font-family="Helvetica, Arial, sans-serif"
+        font-size="11" font-weight="600" letter-spacing="3"
+        fill="#888780" text-anchor="middle">CONTACTLENS.PK</text>
+</svg>

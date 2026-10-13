@@ -1,0 +1,110 @@
+# WooCommerce internals → home (no commerce in static)
+/cart/*           /  301
+/cart             /  301
+/checkout/*       /  301
+/checkout         /  301
+/my-account/*     /  301
+/my-account       /  301
+/wishlist/*       /  301
+/wishlist         /  301
+/compare/*        /  301
+/compare          /  301
+
+# SEO consolidation: dahab-contact-lenses (category) → dahab-lenses (brand hub)
+/dahab-contact-lenses/   /dahab-lenses/   301
+/dahab-contact-lenses    /dahab-lenses/   301
+
+# Yoast canonical mismatch fix: /product/{slug}/ → /{slug}/
+/product/:slug/    /:slug/    301
+/product/:slug     /:slug/    301
+
+# WordPress feed/admin URLs → home
+/feed/*           /  301
+/feed             /  301
+/wp-admin/*       /  301
+/wp-login.php     /  301
+/xmlrpc.php       /  301
+
+# Common typos / legacy URLs
+/products/*       /shop/       301
+/category/*       /shop/       301
+/renu-lens-solution/ /renu/ 301
+/renu-lens-solution /renu/ 301
+
+# Category 1: Duplicate consolidation (WordPress -2 imports)
+/quartz-2/ /quartz/ 301
+/quartz-2 /quartz/ 301
+/choco-2/ /choco/ 301
+/choco-2 /choco/ 301
+/caffee-2/ /caffee/ 301
+/caffee-2 /caffee/ 301
+/avela-2/ /avela/ 301
+/avela-2 /avela/ 301
+/mel-2/ /mel/ 301
+/mel-2 /mel/ 301
+/ochre-2/ /ochre/ 301
+/ochre-2 /ochre/ 301
+/graphite-2/ /graphite/ 301
+/graphite-2 /graphite/ 301
+/glossy-gray-2/ /glossy-gray/ 301
+/glossy-gray-2 /glossy-gray/ 301
+/circle-gray-2/ /circle-gray/ 301
+/circle-gray-2 /circle-gray/ 301
+/dawn-blue-2/ /dawn-blue/ 301
+/dawn-blue-2 /dawn-blue/ 301
+/dawn-gray-2/ /dawn-gray/ 301
+/dawn-gray-2 /dawn-gray/ 301
+/dawn-hazel-2/ /dawn-hazel/ 301
+/dawn-hazel-2 /dawn-hazel/ 301
+/dawn-green-2/ /dawn-green/ 301
+/dawn-green-2 /dawn-green/ 301
+/sky-gray-2/ /sky-gray/ 301
+/sky-gray-2 /sky-gray/ 301
+/shine-green-2/ /shine-green/ 301
+/shine-green-2 /shine-green/ 301
+/royal-blue-2/ /royal-blue/ 301
+/royal-blue-2 /royal-blue/ 301
+/topaz-2/ /topaz/ 301
+/topaz-2 /topaz/ 301
+/latte-2/ /latte/ 301
+/latte-2 /latte/ 301
+/pink-2/ /pink/ 301
+/pink-2 /pink/ 301
+/lens-tool-box-2/ /lens-tool-box/ 301
+/lens-tool-box-2 /lens-tool-box/ 301
+/screw-driver-2/ /screw-driver/ 301
+/screw-driver-2 /screw-driver/ 301
+/white/ /white-contact-lenses/ 301
+/white /white-contact-lenses/ 301
+
+# Category 2: Size-variant consolidation (RE.NU pattern)
+/p2-penta-plex-lens-solution-30ml/ /p2-penta-plex-solution/ 301
+/p2-penta-plex-lens-solution-30ml /p2-penta-plex-solution/ 301
+/p2-penta-plex-lens-solution-120ml/ /p2-penta-plex-solution/ 301
+/p2-penta-plex-lens-solution-120ml /p2-penta-plex-solution/ 301
+/p2-penta-plex-lens-solution-350ml/ /p2-penta-plex-solution/ 301
+/p2-penta-plex-lens-solution-350ml /p2-penta-plex-solution/ 301
+/ultimate-lens-solution-60ml/ /ultimate-lens-solution/ 301
+/ultimate-lens-solution-60ml /ultimate-lens-solution/ 301
+/ultimate-lens-solution-120ml/ /ultimate-lens-solution/ 301
+/ultimate-lens-solution-120ml /ultimate-lens-solution/ 301
+/ultimate-lens-solution-360ml/ /ultimate-lens-solution/ 301
+/ultimate-lens-solution-360ml /ultimate-lens-solution/ 301
+/dura-plus-120ml/ /dura-plus/ 301
+/dura-plus-120ml /dura-plus/ 301
+/dura-plus-355ml/ /dura-plus/ 301
+/dura-plus-355ml /dura-plus/ 301
+/solite-solution-multi-function-kit-120ml/ /solite-multi-function-kit/ 301
+/solite-solution-multi-function-kit-120ml /solite-multi-function-kit/ 301
+/solite-solution-multi-function-kit-360ml/ /solite-multi-function-kit/ 301
+/solite-solution-multi-function-kit-360ml /solite-multi-function-kit/ 301
+/bella-lens-solution-120ml/ /bella-lens-solution/ 301
+/bella-lens-solution-120ml /bella-lens-solution/ 301
+/bella-lens-solution-150ml/ /bella-lens-solution/ 301
+/bella-lens-solution-150ml /bella-lens-solution/ 301
+/comfort-120ml/ /comfort-solution/ 301
+/comfort-120ml /comfort-solution/ 301
+/comfort-360ml/ /comfort-solution/ 301
+/comfort-360ml /comfort-solution/ 301
+/sunsoft/ /natural-sunsoft-lenses/ 301
+/sunsoft /natural-sunsoft-lenses/ 301

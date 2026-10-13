@@ -1,0 +1,50 @@
+User-agent: *
+Allow: /
+
+# WooCommerce cart/wishlist/compare action URLs
+Disallow: /*?add-to-cart=
+Disallow: /*?add_to_cart=
+Disallow: /*?add-to-wishlist=
+Disallow: /*?add_to_wishlist=
+Disallow: /*?add_to_compare=
+Disallow: /*?add-to-compare=
+Disallow: /*?remove-wishlist-item=
+Disallow: /*?remove_compare_item=
+Disallow: /*?remove-compare-item=
+Disallow: /*?_wpnonce=
+
+# WooCommerce shop layout/filter parameters (we serve a static shop)
+Disallow: /*?orderby=
+Disallow: /*?per_page=
+Disallow: /*?shop_columns=
+Disallow: /*?filter_*
+Disallow: /*?attribute_*
+Disallow: /*?min_price=
+Disallow: /*?max_price=
+Disallow: /*?rating_filter=
+
+# Legacy WordPress feeds and pagination — gone on the static site
+Disallow: /*/feed/
+Disallow: /*/feed$
+Disallow: /feed/
+Disallow: /comments/feed/
+Disallow: /*/page/
+
+# WordPress internals
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/cache/
+Disallow: /wp-login.php
+Disallow: /xmlrpc.php
+Disallow: /?p=
+Disallow: /?s=
+Disallow: /*?replytocom=
+
+# Site search and tracking parameters
+Disallow: /?s=
+Disallow: /*?utm_*
+Disallow: /*?gclid=
+Disallow: /*?fbclid=
+
+Sitemap: https://contactlens.pk/sitemap.xml

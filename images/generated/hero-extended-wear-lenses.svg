@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#FAF9F4"/>
+      <stop offset="100%" stop-color="#E1F5EE"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1D9E75"/>
+      <stop offset="100%" stop-color="#0F6E56"/>
+    </linearGradient>
+    <radialGradient id="iris" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#3a5470"/>
+      <stop offset="50%"  stop-color="#1f3a52"/>
+      <stop offset="100%" stop-color="#0e2236"/>
+    </radialGradient>
+    <radialGradient id="lens-overlay" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="rgba(29,158,117,0)"/>
+      <stop offset="70%"  stop-color="rgba(29,158,117,0.2)"/>
+      <stop offset="100%" stop-color="rgba(15,110,86,0.4)"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1100" cy="100" r="180" fill="rgba(29,158,117,0.06)"/>
+  <circle cx="80"   cy="560" r="120" fill="rgba(29,158,117,0.05)"/>
+
+  <!-- Eyebrow -->
+  <text x="80" y="170" font-family="Helvetica, Arial, sans-serif"
+        font-size="14" font-weight="600" letter-spacing="4"
+        fill="#0F6E56">EXTENDED WEAR LENSES</text>
+
+  <!-- Headline -->
+  <text x="80" y="240" font-family="Helvetica, Arial, sans-serif"
+        font-size="56" font-weight="700" fill="#1a1a1a">Sleep-In Approved</text>
+  <text x="80" y="305" font-family="Helvetica, Arial, sans-serif"
+        font-size="56" font-weight="700" fill="#1a1a1a">Contact Lenses</text>
+
+  <!-- Accent bar -->
+  <rect x="80" y="335" width="80" height="4" fill="url(#accent)"/>
+
+  <text x="80" y="380" font-family="Helvetica, Arial, sans-serif"
+        font-size="22" font-weight="400" fill="#5F5E5A">Acuvue Oasys · Up to 6 nights continuous wear</text>
+
+    <text x="80" y="450" font-family="Helvetica, Arial, sans-serif"
+        font-size="18" font-weight="500" fill="#5F5E5A">Per box</text>
+  <text x="80" y="495" font-family="Helvetica, Arial, sans-serif"
+        font-size="44" font-weight="700" fill="#0F6E56">₨ 10,200</text>
+
+  <!-- Feature bullets -->
+    <circle cx="88" cy="555" r="3" fill="#1D9E75"/>
+    <text x="100" y="560" font-family="Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="500" fill="#1a1a1a">FDA-approved overnight wear · Silicone hydrogel</text>
+    <circle cx="88" cy="585" r="3" fill="#1D9E75"/>
+    <text x="100" y="590" font-family="Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="500" fill="#1a1a1a">For shift workers · travel · convenience</text>
+
+
+  <!-- Right side: eye illustration -->
+  <g transform="translate(840, 315)">
+    <path d="M -180,0 Q 0,-110 180,0 Q 0,110 -180,0 Z"
+          fill="#ffffff" stroke="#1a1a1a" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="90"  fill="url(#iris)"/>
+    <circle cx="0" cy="0" r="100" fill="url(#lens-overlay)"/>
+    <circle cx="0" cy="0" r="90"  fill="none" stroke="rgba(0,0,0,0.3)" stroke-width="1"/>
+    <circle cx="0" cy="0" r="28"  fill="#1a1a1a"/>
+    <ellipse cx="-22" cy="-22" rx="20" ry="14" fill="rgba(255,255,255,0.9)"/>
+    <ellipse cx="18"  cy="22"  rx="8"  ry="5"  fill="rgba(255,255,255,0.5)"/>
+    <path d="M -120,-40 Q -60,-65 0,-72 Q 60,-65 120,-40"
+          fill="none" stroke="#1a1a1a" stroke-width="2.5" opacity="0.7"/>
+  </g>
+</svg>
